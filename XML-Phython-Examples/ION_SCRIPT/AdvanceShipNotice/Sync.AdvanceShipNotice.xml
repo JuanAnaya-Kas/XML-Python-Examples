@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SyncAdvanceShipNotice xmlns="http://schema.infor.com/InforOAGIS/2" releaseID="9.2" versionID="2.13.0">
+   <ApplicationArea>
+      <Sender>
+         <LogicalID>lid://infor.wm.prd</LogicalID>
+         <ComponentID>Warehouse Management</ComponentID>
+         <ReferenceID accountingEntity="AE2" location="ORTELIUS_TST">0000004382</ReferenceID>
+      </Sender>
+      <CreationDateTime>2022-05-09T19:39:27Z</CreationDateTime>
+      <BODID>infor-nid:DZXMZUMBNMRW6J23_TST:AE1:ORTELIUS_TST:0000000085:4318?AdvanceShipNotice&amp;verb=Sync</BODID>
+   </ApplicationArea>
+   <DataArea>
+      <Sync>
+         <TenantID>DZXMZUMBNMRW6J23_TST</TenantID>
+         <AccountingEntityID>JUAN</AccountingEntityID>
+         <LocationID accountingEntity="AE2">ORTELIUS_TST</LocationID>
+         <ActionCriteria>
+            <ActionExpression actionCode="Replace" />
+         </ActionCriteria>
+      </Sync>
+      <AdvanceShipNotice>
+         <AdvanceShipNoticeHeader>
+            <DocumentID>
+               <ID accountingEntity="AE2" location="ORTELIUS_TST" variationID="4318">0000000085</ID>
+            </DocumentID>
+            <AlternateDocumentID>
+               <ID>WMS0000000085</ID>
+            </AlternateDocumentID>
+            <LastModificationDateTime>2022-05-09T19:39:25Z</LastModificationDateTime>
+            <DocumentDateTime>2022-05-09T19:38:22Z</DocumentDateTime>
+            <Status>
+               <Code listID="ShipmentStatus">Closed</Code>
+            </Status>
+            <WarehouseLocation>
+               <ID>ORTELIUS_TST</ID>
+            </WarehouseLocation>
+            <ScheduledDeliveryDateTime>2022-05-09T19:39:27Z</ScheduledDeliveryDateTime>
+            <ShipToParty>
+               <Location>
+                  <ID>ORTELIUS_TST</ID>
+               </Location>
+            </ShipToParty>
+            <UserArea>
+               <Property>
+                  <NameValue name="wm.SCE_Schema" type="StringType">DZXMZUMBNMRW6J23_TST:AE1::ORTELIUS_TST:</NameValue>
+               </Property>
+            </UserArea>
+         </AdvanceShipNoticeHeader>
+         <AdvanceShipNoticeItem>
+            <ItemID>
+               <ID>ART02</ID>
+            </ItemID>
+            <ServiceIndicator>false</ServiceIndicator>
+            <Description languageID="en-US">Articulo prueba</Description>
+            <ShippedQuantity unitCode="EA">10.00000</ShippedQuantity>
+            <ShippedBaseUOMQuantity unitCode="EA">10.00000</ShippedBaseUOMQuantity>
+            <ExtendedSalePriceBaseAmount currencyID="USD">0.0</ExtendedSalePriceBaseAmount>
+            <UserArea />
+            <LineNumber>WMS00001</LineNumber>
+         </AdvanceShipNoticeItem>
+      </AdvanceShipNotice>
+   </DataArea>
+</SyncAdvanceShipNotice>

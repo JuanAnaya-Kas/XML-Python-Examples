@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bookstore xmlns="http://schema.infor.com/InforOAGIS/2" releaseID="9.2" versionID="2.13.0">  
+  <book category="Programing">  
+    <title lang="en">Python Tutorial</title>  
+    <level>Beginner</level>  
+    <year>2018</year>  
+    <price>50.00</price>  
+  </book>  
+  <book category="Engine">  
+    <title lang="en">Python Basics</title>  
+    <level>Advanced</level>  
+    <year>2019</year>  
+    <price>45.00</price>  
+  </book>    
+</bookstore>
